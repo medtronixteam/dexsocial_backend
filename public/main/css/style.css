@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.btn{
+  color: white;
+  min-width: 150px;
+}
+.dark-card{
+  background-color: #142028;
+  border-radius: 15px;
+  padding: 25px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 2px;
+}
+.dark-lists{
+    background-color: #142028;
+    border-radius: 15px;
+    padding: 4px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 2px;
+  }
+
+.dark-lists:hover{
+  background-color: #23323c;
+}
+.dark-card:hover{
+  background-color: #23323c;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p{
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+section {
+  padding: 60px 0px;
+}
+h4{
+  margin-bottom: -0.1rem;
+}
+/* Bootstrap 4 text input with search icon */
+.has-search{
+  background-color: #141A28;
+  padding: 4px 15px;
+  border-radius: 4px;
+  position: relative;
+}
+.has-search .form-control {
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  min-width: 350px;
+}
+
+.form-control {
+  padding: 0.375rem 10rem;
+  border: none;
+}
+
+.form-control::placeholder {
+  color: rgb(88, 86, 86);
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: white;
+}
+
+.header .btn-update {
+  background-color: purple;
+  font-weight: 600;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+}
+
+.header .btn-update:hover {
+  background-color: white;
+  color: black;
+}
+/* token section */
+.token-section .pokemon{
+  max-width: 100%;
+  position: relative;
+}
+.token-section .date-badge{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 23%;
+  background-color: purple;
+  color: white;
+  top: 0px;
+  padding: 5px 10px;
+}
+.token-section .solana{
+  width: 60px;
+}
+.token-section .icons a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+}
+.token-section .pok-img{
+  width: 15%;
+}
+.token-section .logo-img{
+width: 25%;
+}
+.token-section .token-logo{
+  border-radius: 50%;
+  max-width: 50px;
+}
+.crypto-link img{
+  width: 20px;
+  margin: 5px;
+  height: auto;
+  border-radius: 25px;
+}
+.social-link{
+  background-color: white;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 1px 3px;
+  color: black !important;
+  font-size: 12px;
+}
+.social-link i{
+  color: black;
+}
+.btn-black{
+    background: black;
+}
+.right_btns{
+    width: 20px;
+}
+.gradient-btn {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+/* Custom CSS for Typeahead */
+.tt-suggestion {
+padding: 10px;
+border-bottom: 1px solid #555;
+cursor: pointer;
+display: flex;
+align-items: center;
+}
+
+.tt-suggestion img {
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+#customDropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 300px; /* Set a max-height for scrollbar */
+  overflow-y: auto; /* Add scrollbar when content overflows */
+  background-color: #333; /* Dark dropdown background color */
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+#searchDropdownInput {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.custom-dropdown-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+}
+
+.custom-dropdown-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+/* .token-section span{
+  font-size: 10px;
+} */
+/* Media Query */
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+  .has-search .form-control {
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+    min-width: 150px;
+  }
+
+  footer {
+    padding: 30px 20px;
+  }
+}

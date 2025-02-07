@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    word-wrap: break-word;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: black;
+    color: white;
+  }
+  .dark-card{
+    background-color: #142028;
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 2px;
+  }
+  .dark-card:hover{
+    background-color: #23323c;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  p{
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 1280px;
+  }
+  
+  section {
+    padding: 60px 0px;
+  }
+  h4{
+    margin-bottom: -0.1rem;
+  }
+  /* Bootstrap 4 text input with search icon */
+  
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    background-color: #aaa;
+  }
+  
+  .form-control {
+    padding: 0.375rem 10rem;
+    border: none;
+  }
+  
+  .form-control::placeholder {
+    color: rgb(88, 86, 86);
+    box-shadow: none;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: white;
+  }
+  
+  .header .btn-update {
+    background-color: purple;
+    font-weight: 600;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+  }
+  
+  .header .btn-update:hover {
+    background-color: white;
+    color: black;
+  }
+  /* token section */
+  .token-section .pokemon{
+    max-width: 100%;
+    position: relative;
+  }
+  .token-section .date-badge{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 30px;
+    background-color: purple;
+    color: white;
+    bottom: 64px;
+    padding: 5px 10px;
+  }
+  .token-section .solana{
+    width: 60px;
+  }
+  .token-section .icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 400;
+  }
+  .token-section .pok-img{
+    width: 15%;
+  }
+  .token-section .logo-img{
+  width: 25%;
+  }
+  .token-section .token-logo{
+    border-radius: 50%;
+    max-width: 50px;
+  }
+
+  /* .token-section span{
+    font-size: 10px;
+  } */
+  /* Media Query */
+  @media only screen and (max-width: 1200px) {}
+  
+  @media only screen and (max-width: 992px) {}
+  
+  @media only screen and (max-width: 768px) {}
+  
+  @media only screen and (max-width: 576px) {
+    footer {
+      padding: 30px 20px;
+    }
+  }
